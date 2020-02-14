@@ -24,6 +24,7 @@ optional = true
 features = ["xlib"]
 
 [features]
+default = ["randr"]
 xlib_xcb = ["x11/xlib"]
 thread = []
 
